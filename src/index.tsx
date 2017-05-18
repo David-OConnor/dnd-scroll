@@ -8,7 +8,7 @@ const SubScroller = ( {type, height, speed, connectDropTarget, isOver} ) => {
     // speed is the number of pixels to scroll per millisecond.
     // Drag a fixed, invisible box of custom height at the top, and bottom
     // of the window. Make sure to show it only when dragging something.
-    const style = {position: 'fixed', height: height, width: '100%', opacity: 0, zIndex: 999}
+    const style: any = {position: 'fixed', height: height, width: '100%', opacity: 0, zIndex: 999}
 
     if (type == 'top') {
         style['top'] = 0

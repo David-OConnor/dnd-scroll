@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "moduleResolution": "node", // todo do I want this?
+    "removeComments": true
+//    "preserveConstEnums": true,
+  },
+
+  "include": [
+    "./src/**/*"
+  ],
+
+
+  "typeRoots": [
+    // add path to @types
+    "./node_modules/@types"
+  ]
+}

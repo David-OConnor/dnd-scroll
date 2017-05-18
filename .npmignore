@@ -1,9 +1,11 @@
 src
 webpack.config.js
 tests.webpack.js
+tsconfig.json
 karma.conf.js
 .babelrc
 .eslintrc
 .eslintignore
 bower.json
 yarn.lock
+examples
