@@ -35,7 +35,7 @@ const SubScroller = ( {type, height, speed, connectDropTarget, isOver} ) => {
 
 }
 
-
+// export function Scroller( {itemType, target, targetCollect, enabled=true, height=80, speed=4} ) {
 export default ( {itemType, target, targetCollect, enabled=true, height=80, speed=4} ) => {
     // Parent scrolling element; set up a subscroller at the top of the page
     // for scrolling up; one at the botton for scrolling down.

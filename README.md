@@ -4,6 +4,7 @@ DnD Scroll
 Add-on for React DnD. Auto scroll when dragging to the top or bottom of the window; compensates for inability to use mousewheel or keyboard scrolling while dragging in React DnD's default (HTML5) backend.
 
 Example use. Check out examples/basic_syntax for an explanation of the props:
+    
     import Scroller from 'dnd-scroll'
 
     const TopLevelComponenet = () => (

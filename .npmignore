@@ -6,6 +6,5 @@ karma.conf.js
 .babelrc
 .eslintrc
 .eslintignore
-bower.json
 yarn.lock
 examples
