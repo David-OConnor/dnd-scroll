@@ -1,6 +1,6 @@
 {
   "name": "dnd-scroll",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Full-window autoscrolling component for React-dnd",
   "keywords": [
     "react-component",
@@ -11,13 +11,13 @@
   "node": "7.8.0",
   "main": "./dist/index.js",
   "dependencies": {
-    "react-dnd": "^2.3.0"
+    "react-dnd": "^10.0.2"
   },
   "devDependencies": {
-    "dnd-core": "^2.3.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "typescript": "^2.3.2"
+    "dnd-core": "^10.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.3"
   },
   "types": "./dist/index.d.ts",
   "scripts": {
